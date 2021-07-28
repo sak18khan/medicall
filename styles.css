@@ -1,0 +1,116 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  height: 100px;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  line-height: normal;
+}
+.header h1{
+  padding: 10px;
+  text-shadow: 2px 1px 3px black;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.search{
+  position: relative;
+  left: 40%;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.button{
+  padding: 6px;
+  border-radius: 10%;
+}
+.input{
+  padding: 6px;
+}
+.button:hover{
+  background-color: green;
+  color: white;
+}
+.footer{
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  position: absolute;
+  bottom: 0%;
+  color: white;
+  text-align: center;
+}
+.footer p{
+  padding: 10px;
+}
+.right{
+  position: absolute;
+  right: 50%
+  width: 50%;
+  background-color: red;
+}
+.formm{
+  width: 500px;
+  height: 400px;
+  position:relative;
+  left: 30%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 20%;
+}
+.fd{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.text2{
+  margin: 5px;
+  border-radius: 5%;
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+}
+.btn{
+  margin-top: 20px;
+  padding: 5px;
+  width: 90px;
+  font-size: 20px;
+  border-radius: 10%;
+}
+.btn:hover{
+  background-color: grey;
+}
+.title{
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+@media (max-width:600px) {
+  .header{
+    width: 100%;
+  }
+  .header h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .formm{
+    width: 100%;
+    position: absolute;
+    left: auto;
+    border-radius:0;
+  }
+  .search{
+    position: relative;
+    left: 20%;
+  }
+  .footer{
+    display: none;
+  }
+}
